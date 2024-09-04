@@ -1,0 +1,31 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#profile {
+	display: flex;
+	align-items: center;
+	gap:32px;
+	padding: 32px 0;
+}
+
+#bio {
+	max-width: 380px;
+}
+
+#info {
+	width: 275px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+	line-height: 0;
+}
+
+#info li {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
