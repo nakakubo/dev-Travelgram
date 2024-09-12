@@ -1,0 +1,11 @@
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 0;
+}
+
+footer ul {
+	display: flex;
+	gap:24px;
+	list-style: none;
+}
